@@ -1,13 +1,14 @@
 class PingDevops < Formula
   desc "PingIdentity DevOps Command-Line Tool"
   homepage "https://devops.pingidentity.com"
-  url "https://github.com/pingidentity/ping-devops/archive/v0.1.tar.gz"
-  sha256 "26157bb64f6e66273c841d64c86c010a811b6ed357fc4e8b833c2c4874aea059"
+  url "https://github.com/pingidentity/ping-devops/archive/v0.2.tar.gz"
+  sha256 "133f7acbea4694cbe5962d482f6fff9a453fb6dc404bfe3c99556d18d8eeb45d"
 
   depends_on "kubernetes-cli"
 
   def install
     bin.install "ping-devops"
+    etc.install "etc/bash_profile.ping-devops"
 
   end
 
