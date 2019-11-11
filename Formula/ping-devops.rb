@@ -5,6 +5,9 @@ class PingDevops < Formula
   sha256 "133f7acbea4694cbe5962d482f6fff9a453fb6dc404bfe3c99556d18d8eeb45d"
 
   depends_on "kubernetes-cli"
+  depends_on "kubectx"
+  depends_on "kustomize"
+  depends_on "gettext"
 
   def install
     bin.install "ping-devops"
