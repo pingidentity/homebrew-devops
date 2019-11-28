@@ -9,6 +9,7 @@ class PingDevops < Formula
   depends_on "kustomize"
   depends_on "gettext"
   depends_on "stern"
+  depends_on "jq"
 
   def install
     bin.install "ping-devops"
