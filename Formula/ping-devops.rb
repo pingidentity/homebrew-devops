@@ -32,7 +32,7 @@ class PingDevops < Formula
 
   def post_install
     move_profile
-    ohai "Verify your existing Ping Identity DevOps confis with"
+    ohai "Verify your existing Ping Identity DevOps configs with"
     ohai "  ping-devops info"
     ohai "  ping-devops config"
   end
