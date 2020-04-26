@@ -1,8 +1,8 @@
 class PingDevops < Formula
   desc "PingIdentity DevOps Command-Line Tool"
   homepage "https://devops.pingidentity.com"
-  url "https://github.com/pingidentity/ping-devops/archive/v0.5.4.tar.gz"
-  sha256 "13210ca2067921eaa970316a448aa3e67b1301c085d0f63fabd74a66985b3e37"
+  url "https://github.com/pingidentity/ping-devops/archive/v0.5.5.tar.gz"
+  sha256 "45f13d69fa43eb905956100de77a996ee48c2e868c7cb49130e5dc4e4efb13de"
 
   depends_on "kubernetes-cli"
   depends_on "kubectx"
