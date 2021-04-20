@@ -1,4 +1,4 @@
-class PingIdentityCli < Formula
+class PiCli < Formula
   desc "PingIdentity pi CLI"
   homepage "https://github.com/pingidentity/pi-cli"
   url "https://github.com/pingidentity/pi-cli/archive/v0.9.0.tar.gz"
