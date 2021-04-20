@@ -18,7 +18,6 @@ class Pingctl < Formula
   end
 
   def post_install
-    move_profile
     ohai "Verify your existing Ping Identity pingctl configs with"
     ohai "  pingctl info"
     ohai "  pingctl config"
