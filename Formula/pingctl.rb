@@ -11,7 +11,7 @@ class Pingctl < Formula
   depends_on "stern"
   depends_on "jq"
   depends_on "mike-engel/jwt-cli/jwt-cli"
-  depends_on "derailed/k9s/k9s"
+  depends_on "k9s"
 
   def install
     bin.install "pingctl"
